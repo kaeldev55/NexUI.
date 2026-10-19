@@ -1,0 +1,11 @@
+name: NexUI
+version: 1.0.0
+main: dev.nexui.NexuiPlugin
+api-version: '1.20'
+author: YourName
+description: Next-Generation Standalone UI Framework
+commands:
+  nexui:
+    description: Main command for NEXUI
+    usage: /nexui <load|reload|unload>
+    permission: nexui.admin
